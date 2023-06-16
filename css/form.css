@@ -11,17 +11,13 @@ html {
 .body {
     background-color: rgb(233, 232, 230);
     color: black;
+    margin: 10px 0px;
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 10px auto;
-
 }
 
 .form__box {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
     background-color: rgba(255, 255, 255, 0.742);
     margin: 20px 0px;
     padding: 10px 50px;
@@ -42,12 +38,7 @@ html {
 }
 
 .form__listBox {
-    max-width: 500px;
     background-color: rgba(255, 255, 255, 0.742);
     padding: 10px 50px;
-
-}
-
-.form__list{
 
 }
