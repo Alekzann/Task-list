@@ -1,26 +1,18 @@
-html {
-    box-sizing: border-box;
-}
 
-*,
-::after,
-::before {
-    box-sizing: inherit;
-}
 
-.body {
-    background-color: rgb(233, 232, 230);
-    color: black;
-    margin: 10px 0px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.form__box {
+    background-color: rgba(255, 255, 255, 0.742);
+    
 }
 
 .form__box {
     background-color: rgba(255, 255, 255, 0.742);
     margin: 20px 0px;
     padding: 10px 50px;
+    display: grid;
+    
+    grid-gap: 4px 1px;
+    max-width: 90%;
 }
 
 .form__addTask {
@@ -35,10 +27,4 @@ html {
     border-radius: 2px;
     padding: 5px;
     color: #eee;
-}
-
-.form__listBox {
-    background-color: rgba(255, 255, 255, 0.742);
-    padding: 10px 50px;
-
 }
