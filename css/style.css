@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(233, 232, 230);
+    color: black;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+    }
+
+
