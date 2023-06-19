@@ -1,0 +1,30 @@
+
+
+.form__box {
+    ;
+    
+}
+
+.form__box {
+    background-color: rgba(255, 255, 255, 0.742);
+    margin: 20px 0px;
+    padding: 10px 50px;
+    display: grid;
+    
+    grid-gap: 4px 1px;
+    max-width: 90%;
+}
+
+.form__addTask {
+    border: 1px solid rgb(222, 221, 221);
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+.form__addTaskButton {
+    background-color: teal;
+    border-style: none;
+    border-radius: 2px;
+    padding: 5px;
+    color: #eee;
+}
