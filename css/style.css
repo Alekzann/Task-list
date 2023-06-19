@@ -8,10 +8,13 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    background-color: rgb(233, 232, 230);
+body {
+    background-color: #eee;
     color: rgb(54, 46, 46);
     font-family: 'Noto Sans Nag Mundari', sans-serif;
-    }
+}
 
-
+.container{
+    max-width: 900px;
+    margin: 20px auto;
+}
