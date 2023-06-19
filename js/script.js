@@ -23,12 +23,18 @@
 				render();
 	}
 
+	const toggleTaskDone = (index) => {
+		tasks[index].done = !tasks[index].done;
+		render();
+	}
+
 	const render = () => {
 		let htmlString = "";
 
 		for (const task of tasks) {
 			htmlString += `
             <li${task.done ? " class=\"contentDone\"" : ""}>
+						<button class="js-done">zrobione</button>
             <button class="js-remove">usuń</button>
 						${task.content}
             </li>
@@ -36,6 +42,14 @@
 		};
 
 		document.querySelector(".js-tasks").innerHTML = htmlString;
+
+		const toggleDoneButtons = document.querySelectorAll(".js-done");
+
+		toggleDoneButtons.forEach((toggleDoneButton, index) =>{
+			toggleDoneButton.addEventListener("click", () => {
+				toggleTaskDone(index);
+			});
+		});
 
 		const removeButtons = document.querySelectorAll(".js-remove");
 
