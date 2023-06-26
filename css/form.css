@@ -1,6 +1,6 @@
-.form__head{
+.form__head {
     border-bottom: 2px solid #eee;
-    
+
 }
 
 .form__box {
@@ -10,17 +10,10 @@
     padding: 10px 20px;
 }
 
-.form__listBox {
-    max-width: 1000px;
-    
-    background-color: rgba(255, 255, 255, 0.742);
-    padding: 10px 20px;
-    
-}
+
 
 .form__newTask {
     width: 60%;
-    text-align: center;
     border: 1px solid rgb(170, 163, 163);
     border-radius: 3px;
     padding: 10px;
@@ -33,4 +26,19 @@
     color: aliceblue;
     border-radius: 3px;
     padding: 11px 20px;
+}
+
+.form__list {
+    list-style: none;
+}
+
+.form__listHeader {
+    border-bottom: 2px solid #eee;
+}
+
+.form__listBox {
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.742);
+    padding: 10px 20px;
+    
 }
