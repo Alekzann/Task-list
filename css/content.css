@@ -1,3 +1,34 @@
-.contentDone{
+.content__done{
     text-decoration: line-through;
 }
+
+.content__button--done{
+    background-color: green;
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    color: white;
+
+}
+
+.content__button--remove{
+    background-color: red;
+    background-image: url("../img/trash.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    order: 1;
+    }
+
+    .content__item{
+        display: grid;
+        grid-template-columns: 20px 1fr 20px;
+        padding: 20px;
+        grid-gap: 20px 20px;
+        align-items: center;
+        justify-items: start;
+           
+    }
