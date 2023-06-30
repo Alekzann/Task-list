@@ -1,7 +1,6 @@
 .form__head {
     border-bottom: 2px solid #eee;
-
-}
+    }
 
 .form__box {
     max-width: 1000px;
@@ -13,7 +12,7 @@
 
 
 .form__newTask {
-    width: 60%;
+    width: 75%;
     border: 1px solid rgb(170, 163, 163);
     border-radius: 3px;
     padding: 10px;
@@ -26,6 +25,8 @@
     color: aliceblue;
     border-radius: 3px;
     padding: 11px 20px;
+    width: 20%;
+    margin-left: 15px;
 }
 
 .form__list {
@@ -40,5 +41,17 @@
     max-width: 1000px;
     background-color: rgba(255, 255, 255, 0.742);
     padding: 10px 20px;
-    
+
+}
+
+@media (max-width: 767px) {
+    .form__addTaskButton {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .form__newTask {
+        width: 100%;
+    }
+
 }
