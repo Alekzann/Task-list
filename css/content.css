@@ -1,34 +1,35 @@
-.content__done{
+.content__item--done {
     text-decoration: line-through;
+
 }
 
-.content__button--done{
+.content__buttonDone {
     background-color: green;
     border-style: none;
     width: 30px;
     height: 30px;
     color: white;
+    text-decoration: none;
 
 }
 
-.content__button--remove{
+.content__buttonRemove {
     background-color: red;
     background-image: url("../img/trash.png");
-    background-size: 90%;
+    background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
     border-style: none;
     width: 30px;
     height: 30px;
     order: 1;
-    }
+}
 
-    .content__item{
-        display: grid;
-        grid-template-columns: 20px 1fr 20px;
-        padding: 20px;
-        grid-gap: 20px 20px;
-        align-items: center;
-        justify-items: start;
-           
-    }
+.content__item {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    padding: 20px;
+    grid-gap: 20px 20px;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
