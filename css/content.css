@@ -9,7 +9,10 @@
     width: 30px;
     height: 30px;
     color: white;
-    
+}
+.content__buttonDone:focus {
+    outline: 1px solid rgb(48, 30, 30);
+    border-radius: 3px;
 }
 
 .content__buttonRemove {
@@ -22,6 +25,11 @@
     width: 30px;
     height: 30px;
     order: 1;
+}
+
+.content__buttonRemove:focus {
+    outline: 1px solid rgb(88, 55, 55);
+    border-radius: 3px;
 }
 
 .content__item {
