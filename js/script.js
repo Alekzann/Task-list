@@ -72,13 +72,13 @@
 		event.preventDefault();
 
 		const newTaskContent = document.querySelector(".js-newTask").value.trim();
-
-		if (newTaskContent === "") {
-			return;
+		const newTaskInput = document.querySelector(".js-newTask");
+		if (newTaskContent !== "") {
+			addNewTask(newTaskContent);
+			newTaskInput.value = "";
 		}
 
-
-		addNewTask(newTaskContent);
+		newTaskInput.focus();
 	};
 
 	const init = () => {
