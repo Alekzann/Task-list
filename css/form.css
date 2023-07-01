@@ -29,6 +29,11 @@
     margin-left: 15px;
 }
 
+.form__addTaskButton:focus {
+    outline: 1px solid rgb(88, 55, 55);
+    border-radius: 3px;
+}
+
 .form__list {
     list-style: none;
 }
