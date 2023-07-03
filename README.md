@@ -16,4 +16,4 @@ You can also click the " Done" button to mark the task as done, or the "Delete" 
 - GRID;
 - media queries
 
-### If you like [click here to see more](https://alekzann.github.io/Task-list/)
+### [Click here to see more](https://alekzann.github.io/Task-list/)
