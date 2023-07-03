@@ -24,7 +24,7 @@
     background-color: teal;
     color: aliceblue;
     border-radius: 3px;
-    padding: 11px 20px;
+    padding: 10px 20px;
     width: 20%;
     margin-left: 15px;
 }
@@ -36,6 +36,8 @@
 
 .form__list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .form__listHeader {
