@@ -1,0 +1,58 @@
+.section {
+    max-width: 1000px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.742);
+    box-shadow: 1px -1px 0px 0px rgba(227, 227, 232, 0.62);
+}
+
+.section__body{
+    padding: 20px;
+}
+
+.section__title {
+    border-bottom: 2px solid #eee;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+.section__form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+    padding-top: 20px;
+
+}
+
+.section__newTask {
+    border: 1px solid rgb(170, 163, 163);
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+.section__addTaskButton {
+    border-style: none;
+    background-color: teal;
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 10px 20px;
+
+}
+
+.section__addTaskButton:focus {
+    outline: 1px solid rgb(88, 55, 55);
+    border-radius: 3px;
+}
+
+.section__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .section__form{
+        grid-template-columns: 1fr;
+    }
+
+}
