@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
-    padding-top: 20px;
+    
 
 }
 
@@ -36,12 +36,31 @@
     color: aliceblue;
     border-radius: 3px;
     padding: 10px 20px;
+    transition: 1s;
+    ;
+}
 
+
+
+.section__addTaskButton:hover{
+    background-color: hsl(180, 100%, 28%);
+    transform: scale(1.05);
 }
 
 .section__addTaskButton:focus {
     outline: 1px solid rgb(88, 55, 55);
     border-radius: 3px;
+}
+
+.section__buttonTasks{
+    border: none;
+    background: rgba(255, 255, 255, 0.742);
+    font-size: 18px;
+    color: hsl(180, 100%, 25%);
+}
+
+.section__buttonTasks:hover {
+    color: rgba(0, 128, 128, 0.80);
 }
 
 .section__list {

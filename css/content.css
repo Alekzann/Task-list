@@ -16,6 +16,10 @@
     border-radius: 3px;
 }
 
+.content__buttonDone:hover{
+    background-color: hsl(120, 100%, 29%);
+}
+
 .content__buttonRemove {
     background-color: red;
     background-image: url("../img/trash.png");
@@ -31,6 +35,9 @@
 .content__buttonRemove:focus {
     outline: 1px solid rgb(88, 55, 55);
     border-radius: 3px;
+}
+.content__buttonRemove:hover{
+    background-color: hsl(0, 100%, 55%);
 }
 
 .content__item {
