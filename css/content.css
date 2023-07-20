@@ -1,3 +1,27 @@
+.content__buttonTasks {
+    border: none;
+    background: rgba(255, 255, 255, 0.742);
+    font-size: 18px;
+    color: hsl(180, 100%, 25%);
+}
+
+.content__buttonTasks:hover {
+    color: rgba(0, 128, 128, 0.80);
+}
+
+.content__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 10px 25px;
+    grid-gap: 20px 20px;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+
+.content__item--hidden {
+    display: none;
+}
+
 .content__item--done {
     text-decoration: line-through;
 
@@ -16,7 +40,7 @@
     border-radius: 3px;
 }
 
-.content__buttonDone:hover{
+.content__buttonDone:hover {
     background-color: hsl(120, 100%, 29%);
 }
 
@@ -36,15 +60,7 @@
     outline: 1px solid rgb(88, 55, 55);
     border-radius: 3px;
 }
-.content__buttonRemove:hover{
-    background-color: hsl(0, 100%, 55%);
-}
 
-.content__item {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    padding: 10px 25px;
-    grid-gap: 20px 20px;
-    align-items: center;
-    border-bottom: 2px solid #eee;
+.content__buttonRemove:hover {
+    background-color: hsl(0, 100%, 65%);
 }

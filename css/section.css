@@ -5,7 +5,7 @@
     box-shadow: 1px -1px 0px 0px rgba(227, 227, 232, 0.62);
 }
 
-.section__body{
+.section__body {
     padding: 20px;
 }
 
@@ -19,8 +19,6 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
-    
-
 }
 
 .section__newTask {
@@ -37,12 +35,9 @@
     border-radius: 3px;
     padding: 10px 20px;
     transition: 1s;
-    ;
 }
 
-
-
-.section__addTaskButton:hover{
+.section__addTaskButton:hover {
     background-color: hsl(180, 100%, 28%);
     transform: scale(1.05);
 }
@@ -52,17 +47,6 @@
     border-radius: 3px;
 }
 
-.section__buttonTasks{
-    border: none;
-    background: rgba(255, 255, 255, 0.742);
-    font-size: 18px;
-    color: hsl(180, 100%, 25%);
-}
-
-.section__buttonTasks:hover {
-    color: rgba(0, 128, 128, 0.80);
-}
-
 .section__list {
     list-style: none;
     margin: 0;
@@ -70,7 +54,7 @@
 }
 
 @media (max-width: 767px) {
-    .section__form{
+    .section__form {
         grid-template-columns: 1fr;
     }
 
