@@ -9,6 +9,10 @@
     color: rgba(0, 128, 128, 0.80);
 }
 
+.content__buttonTasks:disabled{
+    color: hsl(180, 3%, 71%);
+}
+
 .content__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
