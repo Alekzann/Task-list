@@ -15,10 +15,34 @@
     margin: 0;
 }
 
+.section__title--left {
+    padding: 20px 10px;
+    margin: 0;
+}
+
 .section__form {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
+}
+
+.section__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+    
+}
+
+@media(max-width: 767px) {
+    .section__header{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .section__title--left{
+        justify-self: start;
+    }
 }
 
 .section__newTask {
