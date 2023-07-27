@@ -3,6 +3,8 @@
     background: rgba(255, 255, 255, 0.742);
     font-size: 18px;
     color: hsl(180, 100%, 25%);
+    transition: 0.3s;
+    margin-right: 20px;
 }
 
 .content__buttonTasks:hover {
@@ -44,6 +46,7 @@
     width: 30px;
     height: 30px;
     color: white;
+    transition: 0.3s;
 }
 
 .content__buttonDone:focus {
@@ -65,6 +68,7 @@
     width: 30px;
     height: 30px;
     order: 1;
+    transition: 0.3s;
 }
 
 .content__buttonRemove:focus {
