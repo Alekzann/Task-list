@@ -23,12 +23,6 @@
     padding-left: 20px;
 }
 
-.section__form {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-gap: 20px;
-}
-
 .section__header {
     display: flex;
     justify-content: space-between;
@@ -49,41 +43,9 @@
     }
 }
 
-.section__newTask {
-    border: 1px solid rgb(170, 163, 163);
-    border-radius: 3px;
-    padding: 10px;
-
-}
-
-.section__addTaskButton {
-    border-style: none;
-    background-color: teal;
-    color: aliceblue;
-    border-radius: 3px;
-    padding: 10px 20px;
-    transition: 0.3s;
-}
-
-.section__addTaskButton:hover {
-    background-color: hsl(180, 100%, 28%);
-    transform: scale(1.03);
-}
-
-.section__addTaskButton:focus {
-    outline: 1px solid rgb(88, 55, 55);
-    border-radius: 3px;
-}
-
 .section__list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-@media (max-width: 767px) {
-    .section__form {
-        grid-template-columns: 1fr;
-    }
-
-}

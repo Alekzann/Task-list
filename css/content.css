@@ -1,6 +1,6 @@
 .content__buttonTasks {
     border: none;
-    background: rgba(255, 255, 255, 0.742);
+    background: transparent;
     font-size: 18px;
     color: hsl(180, 100%, 25%);
     transition: 0.3s;
